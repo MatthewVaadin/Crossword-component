@@ -6,7 +6,7 @@
     <artifactId>Crossword-component</artifactId>
     <name>Crossword Add-on</name>
     <description>Crossword add-on for Vaadin</description>
-    <version>1.0.0-alpha2</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <organization>
