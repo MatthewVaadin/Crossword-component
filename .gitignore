@@ -1,0 +1,10 @@
+.idea
+styles.scss.cache
+
+target
+*.iml
+**/node_modules
+.settings
+.vscode
+.project
+**/.classpath
