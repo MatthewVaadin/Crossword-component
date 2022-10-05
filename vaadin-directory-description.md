@@ -1,14 +1,13 @@
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/binhbbui411/shields-badge)  
-[![Published on vaadin.com/directory](https://img.shields.io/badge/Vaadin%20Directory-published-blue.svg?colorB=00b4f0)](https://vaadin.com/directory/component/binhbbui411shields-badge)
-[![Star on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/binhbbui411shields-badge.svg)](https://vaadin.com/directory/component/binhbbui411shields-badge)
-[![Rating on vaadin.com/directory](https://img.shields.io/vaadin-directory/rating/binhbbui411shields-badge.svg)](https://vaadin.com/directory/component/binhbbui411shields-badge)
-[![Rating count on vaadin.com/directory](https://img.shields.io/vaadin-directory/rc/binhbbui411shields-badge.svg)](https://vaadin.com/directory/component/binhbbui411shields-badge)
-[![Latest version on vaadin.com/directory](https://img.shields.io/vaadin-directory/v/binhbbui411shields-badge.svg)](https://vaadin.com/directory/component/binhbbui411shields-badge)
-[![Latest release date on vaadin.com/directory](https://img.shields.io/vaadin-directory/rd/binhbbui411shields-badge.svg)](https://vaadin.com/directory/component/binhbbui411shields-badge)
+[![Published on vaadin.com/directory](https://img.shields.io/badge/Vaadin%20Directory-published-blue.svg?colorB=00b4f0)](https://vaadin.com/directory/component/matthew_vaadinlit-crossword)
+[![Star on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/matthew_vaadinlit-component.svg)](https://vaadin.com/directory/component/matthew_vaadinlit-component)
+[![Rating on vaadin.com/directory](https://img.shields.io/vaadin-directory/rating/matthew_vaadinlit-component.svg)](https://vaadin.com/directory/component/matthew_vaadinlit-component)
+[![Rating count on vaadin.com/directory](https://img.shields.io/vaadin-directory/rc/matthew_vaadinlit-component.svg)](https://vaadin.com/directory/component/matthew_vaadinlit-component)
+[![Latest version on vaadin.com/directory](https://img.shields.io/vaadin-directory/v/matthew_vaadinlit-component)](https://vaadin.com/directory/component/matthew_vaadinlit-component)
+[![Latest release date on vaadin.com/directory](https://img.shields.io/vaadin-directory/rd/matthew_vaadinlit-component.svg)](https://vaadin.com/directory/component/matthew_vaadinlit-component)
 
 # &lt;lit-crossword&gt;
 
-[&lt;lit-crossword&gt;](https://vaadin.com/directory/component/binhbbui411shields-badge) is a [Polymer 2](http://polymer-project.org) web component for generating badge using shields.io services.
+[&lt;lit-crossword&gt;](https://vaadin.com/directory/component/matthew_vaadinlit-component) is a [Lit](https://lit.dev/) web component for a multiplayer crossword puzzle in Vaadin 14+.
 
 <!--
 ```
@@ -22,13 +21,10 @@
 ```
 -->
 ```html
-<shields-badge left="shields--badge" right="awesome" style="for-the-badge" color-a="1446A0" color-b="EE4266"></shields-badge>
+<lit-crossword></lit-crossword>
 ```
 
-![Shield-badge is awesome](https://img.shields.io/badge/shields--badge-awesome-green.svg?style=for-the-badge&colorA=1446A0&colorB=EE4266)
 
 # Getting Started  
 
-Using &lt;shields-badge&gt; is simple. Just declare left-side text (remember that if you want a hyphen, you need to put double hyphen there), right-side text, style and the color for both side.  
-
-There is also a dynamic badge option.
+To use &lt;lit-crossword&gt;, create an instance of the Crossword class, passing a unique identifier for the local user. Then pass a valid Puzzle instance to the setPuzzle() method. Puzzle is a JSON parser that uses the standard defined <a href="https://www.xwordinfo.com/JSON/">here</a>.

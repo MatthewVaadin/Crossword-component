@@ -1,3 +1,5 @@
+[![Published on vaadin.com/directory](https://img.shields.io/badge/Vaadin%20Directory-published-blue.svg?colorB=00b4f0)](https://vaadin.com/directory/component/matthew_vaadinlit-crossword)
+
 # Crossword Add-on for Vaadin 14
 
 This is a UI component add-on for Vaadin Platform 14+.
