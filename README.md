@@ -38,6 +38,6 @@ This is a UI component add-on for Vaadin Platform 14+.
 
 ## License & Author
 
-Add-on is distributed under Apache License 2.0. For license terms, see LICENSE.txt.
+Add-on is distributed under Apache License 2.0. For license terms, see LICENSE.
 
 Crossword is written by Matthew Wilson
